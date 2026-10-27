@@ -1,0 +1,67 @@
+{
+  "description": "Published PROVE calibration from the main paper (Table 2). Alpha and intercepts were fitted on VQA-RAD training (7,168 samples). Lambda defaults to 0 (regime routing without the per-question delta). Fit lambda with scripts/fit_calibration.py.",
+  "k": 3,
+  "vote_temperature": 0.7,
+  "regimes": {
+    "perceptual": {
+      "operators": ["consistency", "contrast", "grounding"],
+      "alpha": {
+        "consistency": 1.43,
+        "contrast": 1.40,
+        "grounding": 1.00
+      },
+      "lambda": {
+        "consistency": 0.0,
+        "contrast": 0.0,
+        "grounding": 0.0
+      },
+      "phi_bar": {
+        "consistency": 0.0,
+        "contrast": 0.0,
+        "grounding": 0.0
+      },
+      "intercept": -2.29
+    },
+    "attribute": {
+      "operators": ["contrast", "grounding", "sufficiency"],
+      "alpha": {
+        "contrast": 0.78,
+        "grounding": 1.29,
+        "sufficiency": 0.23
+      },
+      "lambda": {
+        "contrast": 0.0,
+        "grounding": 0.0,
+        "sufficiency": 0.0
+      },
+      "phi_bar": {
+        "contrast": 0.0,
+        "grounding": 0.0,
+        "sufficiency": 0.0
+      },
+      "intercept": -1.67
+    },
+    "compositional": {
+      "operators": ["contrast", "grounding", "sufficiency", "claim_decomp"],
+      "alpha": {
+        "contrast": 0.37,
+        "grounding": 0.83,
+        "sufficiency": 0.57,
+        "claim_decomp": 0.62
+      },
+      "lambda": {
+        "contrast": 0.0,
+        "grounding": 0.0,
+        "sufficiency": 0.0,
+        "claim_decomp": 0.0
+      },
+      "phi_bar": {
+        "contrast": 0.0,
+        "grounding": 0.0,
+        "sufficiency": 0.0,
+        "claim_decomp": 0.0
+      },
+      "intercept": -1.26
+    }
+  }
+}

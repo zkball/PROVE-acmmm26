@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prove-medvqa"
+version = "0.1.0"
+description = "PROVE: Proof-guided Regime-aware Operator Verification for hallucination detection in medical VQA"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "The PROVE Authors"}]
+keywords = ["medical-vqa", "hallucination-detection", "vision-language-models"]
+dependencies = [
+  "openai>=1.40.0",
+  "requests>=2.31.0",
+  "numpy>=1.26.0",
+  "scikit-learn>=1.4.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["prove*"]

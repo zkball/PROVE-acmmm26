@@ -1,0 +1,3 @@
+{"sample_id": "demo-laterality", "image": "examples/brain_mri_laterality.jpg", "question": "Which hemisphere is abnormal?", "answer": "Right"}
+{"sample_id": "demo-infiltration", "image": "examples/chest_xray.jpg", "question": "What part of the lung is the infiltration located in?", "answer": "Right lower lobe"}
+{"sample_id": "demo-ribs", "image": "examples/ribs_ct.jpg", "question": "What organ is shown?", "answer": "ribs"}
