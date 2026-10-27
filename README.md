@@ -260,11 +260,7 @@ Included:
 
 Not included:
 
-- ❌ Cached operator runs or hallucination labels
 - ❌ Full benchmark images (download from the Hugging Face links above)
-- ❌ Retired operators (answer-type / semantic-coverage)
-- ❌ Dual-loop prototypes and rebuttal baseline reimplementations
-- ❌ Hardcoded vendor API bases or keys
 
 Paper evaluation (for reference): 8,048 test samples across SLAKE, VQA-RAD, and VQA-Med-2019, four frontier VLMs as answerers, GPT-5.4 as the default cross-model verifier, K = 3. Parameters are fitted on VQA-RAD training only (7,168 samples). Reported overall AUROC is 0.821.
 
