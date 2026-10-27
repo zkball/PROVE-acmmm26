@@ -43,7 +43,7 @@ DATASETS: dict[str, dict] = {
         "images": DATA_ROOT / "vqa_rad" / "images",
         "splits": ("train", "test"),
         "project_page": "https://osf.io/89kps/",
-        "download": "https://doi.org/10.17605/osf.io/89kps",
+        "download": "https://huggingface.co/datasets/flaviagiammarino/vqa-rad",
         "note": "Clinician-authored radiology VQA. Paper uses this split for calibration.",
     },
     "vqa_med_2019": {
@@ -52,7 +52,7 @@ DATASETS: dict[str, dict] = {
         "images": DATA_ROOT / "vqa_med_2019" / "images",
         "splits": ("train", "val", "test"),
         "project_page": "https://www.imageclef.org/2019/medical/vqa",
-        "download": "https://zenodo.org/records/10499039",
+        "download": "https://huggingface.co/datasets/claudioreeves/imageclef-vqa-med-2019",
         "note": "ImageCLEF 2019 medical VQA (Modality / Plane / Organ / Abnormality).",
     },
     "pmc_vqa": {
